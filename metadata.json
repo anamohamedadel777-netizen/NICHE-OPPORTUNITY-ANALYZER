@@ -1,0 +1,6 @@
+{
+  "name": "Niche Opportunity Analyzer | محلل فرص النيتش",
+  "description": "أداة استراتيجية لتقييم فرص النيتش للمسوقين بالعمولة ورسم خريطة Niche Map متكاملة قبل استثمار الوقت والمجهود.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

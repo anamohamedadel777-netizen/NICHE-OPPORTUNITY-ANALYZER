@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #040405;
+    --warm-black: #23170D;
+    --dark-bronze: #4A2F15;
+    --gold-primary: #F5BF1E;
+    --gold-light: #FBD052;
+    --gold-deep: #A7690C;
+    --text-primary: #FCFCFA;
+    --text-secondary: #C8C5BA;
+    --text-muted: #797979;
+  }
+
+  body {
+    font-family: 'Cairo', 'Alexandria', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    overflow-x: hidden;
+  }
+}
+
+.font-cairo {
+  font-family: 'Cairo', sans-serif;
+}
+
+.font-alexandria {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #040405;
+}
+::-webkit-scrollbar-thumb {
+  background: #23170D;
+  border-radius: 4px;
+  border: 1px solid #4A2F15;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A7690C;
+}
+
+/* Subtle gold glow */
+.gold-glow {
+  box-shadow: 0 0 25px -5px rgba(245, 191, 30, 0.15);
+}
+
+.gold-border {
+  border-color: rgba(245, 191, 30, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FBD052 0%, #F5BF1E 50%, #A7690C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
